@@ -6,7 +6,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
     <div className='bg-deep-blue pt-24 -mt-[147px] pb-6'>
-      <div className="container pt-24 sm:mt-20">
+      <div className="container pt-24 sm:mt-9">
         <div className="flex lg:flex-row pb-0.5 flex-col justify-between">
           <div className="max-w-[364px] w-full">
             <Link href='' className='w-fit flex'>

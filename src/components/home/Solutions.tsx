@@ -5,7 +5,7 @@ import { SOLUTION_DATA } from '@/utils/Helper'
 
 const Solutions = () => {
     return (
-        <div className='md:py-8 sm:py-4 py-1'>
+        <div className='sm:py-4 py-1'>
             <div className="container my-0.5">
                 <PrimaryHeading className='mt-2.5 text-center text-deep-blue' text='ClearPath Treatment Solutions' />
                 <PrimaryParagraph className='md:mt-5 mt-2 text-center mx-auto' data='Elevated performance call center focussing on quality of service and transparency.' />

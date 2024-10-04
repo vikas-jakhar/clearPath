@@ -9,7 +9,7 @@ const Learning = () => {
             <div className="container">
                 <div data-aos='zoom-in' className="mx-auto bg-off-white max-w-[961px] w-full rounded-[22px] px-2 shadow-4xl py-8 sm:py-11">
                     <div data-aos='zoom-in' className="mx-auto max-w-[621px] w-full flex flex-col items-center">
-                        <PrimaryHeading className='text-center' text='Interested In learning More?' />
+                        <PrimaryHeading className='text-center text-deep-blue' text='Interested In learning More?' />
                         <PrimaryParagraph className='text-center text-deep-blue' data='Contact us today to explore how our dual service solution can help your treatment center achieve its growth objectives.' />
                         <div data-aos='zoom-in' className="flex justify-center items-center flex-col sm:flex-row mt-5 sm:mt-7 md:mt-10 md:gap-14 sm:gap-12 gap-4 lg:gap-[62px]">
                             {[...Array(2)].map((_, idx) => (

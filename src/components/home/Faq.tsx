@@ -18,7 +18,7 @@ const Faq: React.FC = () => {
         return '0px';
     };
     return (
-        <div className='sm:py-14 py-5'>
+        <div className='sm:py-12 py-5'>
             <div className="container">
                 <PrimaryHeading className='text-center' text='Frequently Asked Question' />
                 <PrimaryParagraph className='md:mt-5 mt-2.5 text-center mx-auto max-w-[627px]' data='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.' />

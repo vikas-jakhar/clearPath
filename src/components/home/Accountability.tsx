@@ -9,7 +9,7 @@ const Accountability = () => {
                 <div className="flex justify-between lg:flex-row flex-col items-center gap-6 sm:gap-10">
                     <div data-aos='zoom-in' className="max-w-[543px] w-full flex flex-col items-center lg:items-start">
                         <span data-aos='zoom-in' className='flex text-deep-blue font-messiri font-normal text-sm w-fit py-2 px-3.5 border border-off-blue bg-light-sky rounded-lg text-center'>Why ClearPath?</span>
-                        <PrimaryHeading className='mt-2.5 text-center lg:text-left' text='Transparency & Accountability' />
+                        <PrimaryHeading className='mt-2.5 text-center lg:text-left text-deep-blue' text='Transparency & Accountability' />
                         <PrimaryParagraph className='sm:mt-4 text-center lg:text-left mt-2' data='Gain real-time access to all operational data through our dashboard, which allows for immediate insights and strategic decision making. We ensure full transparency in our processes and provide concrete evidence of our effectiveness and integrity.' />
                     </div>
                     <div data-aos='zoom-in' className="max-w-[524px] shadow-3xl border border-deep-blue rounded-xl overflow-hidden flex">
