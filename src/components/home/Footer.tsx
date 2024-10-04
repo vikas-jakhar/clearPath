@@ -9,13 +9,13 @@ const Footer = () => {
       <div className="container pt-24 sm:mt-9">
         <div className="flex lg:flex-row pb-0.5 flex-col justify-between">
           <div className="max-w-[364px] w-full">
-            <Link href='' className='w-fit flex'>
+            <Link href='/' className='w-fit flex'>
               <Image src="/assets/images/svg/clear-logo.svg" className='w-full max-w-[138px]' alt='icon' width={138} height={40} priority />
             </Link>
             <p className='text-white opacity-80 font-normal font-lato mt-5 pt-0.5'>Lorem ipsum dolor sit amet consectetur. Commodo facilisi augue pellentesque id vitae faucibus. Odio blandit non mi donec non ipsum sed volutpat. </p>
             <div className="mt-[22px] flex items-center gap-[22px]">
               {[...Array(4)].map((_, idx) => (
-                <Link key={idx} href='' className='group bg-off-white hover:bg-deep-blue transition_slow w-6 h-6 grid place-items-center rounded-full shadow-5xl'>
+                <Link key={idx} target='_blank' href={idx === 0 ? "https://www.facebook.com/login/" : idx === 1 ? "https://x.com/i/flow/login" : idx === 2 ? "https://www.linkedin.com/login" : "https://www.instagram.com/accounts/login/?hl=en"} className='group bg-off-white hover:bg-deep-blue transition_slow w-6 h-6 grid place-items-center rounded-full shadow-5xl'>
                   <Icon iconName={idx === 0 ? "facebookIcon" : idx === 1 ? "twitterIcon" : idx === 2 ? "linkedin" : "instagramIcon"} />
                 </Link>
               ))}
