@@ -15,7 +15,7 @@ const Footer = () => {
             <p className='text-white opacity-80 font-normal font-lato mt-5 pt-0.5'>Lorem ipsum dolor sit amet consectetur. Commodo facilisi augue pellentesque id vitae faucibus. Odio blandit non mi donec non ipsum sed volutpat. </p>
             <div className="mt-[22px] flex items-center gap-[22px]">
               {[...Array(4)].map((_, idx) => (
-                <Link href='' className='group bg-off-white hover:bg-deep-blue transition_slow w-6 h-6 grid place-items-center rounded-full shadow-5xl'>
+                <Link key={idx} href='' className='group bg-off-white hover:bg-deep-blue transition_slow w-6 h-6 grid place-items-center rounded-full shadow-5xl'>
                   <Icon iconName={idx === 0 ? "facebookIcon" : idx === 1 ? "twitterIcon" : idx === 2 ? "linkedin" : "instagramIcon"} />
                 </Link>
               ))}
@@ -25,8 +25,8 @@ const Footer = () => {
             <div className="max-w-[107px] w-full">
               <h2 className='font-messiri font-semibold text-white text-2xl'>Services</h2>
               <div className="flex flex-col sm:pt-2.5">
-                {[...Array(5)].map((_, idx) => (
-                  <Link key={idx} href='/' className='font-normal w-fit text-white capitalize opacity-80 font-lato text-base mt-2.5'>{idx === 0 ? "Home" : idx === 1 ? "Why Webserv?" : idx === 2 ? "Services" : idx === 3 ? "Testimonial" : "Process"}</Link>
+                {[...Array(5)].map((_, index) => (
+                  <Link key={index} href='/' className='font-normal w-fit text-white capitalize opacity-80 font-lato text-base mt-2.5'>{index === 0 ? "Home" : index === 1 ? "Why Webserv?" : index === 2 ? "Services" : index === 3 ? "Testimonial" : "Process"}</Link>
                 ))}
               </div>
             </div>

@@ -84,7 +84,7 @@ const Icon: React.FC<IconProps> = (props) => {
     };
 
     return (
-        <span data-aos='zoom-in' className={`grid ${props.className || ''}`}>
+        <span className={`grid ${props.className || ''}`}>
             {props.iconName && IconList[props.iconName]}
         </span>
     );
