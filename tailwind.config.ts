@@ -21,6 +21,7 @@ const config: Config = {
         'off-gray': "#1B335333",
         'light-gray': "#1B33530D",
         'dark-gray': "#4B4B4C",
+        'medium-gray': "#1B335366",
       },
       container: {
         center: true,
@@ -40,6 +41,7 @@ const config: Config = {
       boxShadow: {
         '3xl': "0px 14px 30.5px 0px #1B33531F",
         '4xl': "0px 0px 49px 7px #00000017",
+        '5xl': "0px 0px 0px 1px white",
       },
       backgroundImage: {
         'mobile-layer': "url('/assets/images/webp/pattern-layer.png')",

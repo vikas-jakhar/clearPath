@@ -18,25 +18,25 @@ const Faq: React.FC = () => {
         return '0px';
     };
     return (
-        <div className='py-16'>
+        <div className='sm:py-16 py-5'>
             <div className="container">
                 <PrimaryHeading className='text-center text-deep-blue' text='Frequently Asked Question' />
                 <PrimaryParagraph className='md:mt-5 mt-2.5 text-center mx-auto max-w-[627px]' data='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.' />
-                <div className="mt-11">
+                <div className="lg:mt-11 md:mt-8 sm:mt-5 mt-3">
                     {ACCORDION_DATA.map((item, index) => (
                         <div data-aos="flip-up" key={index}>
-                            <div className="overflow-hidden flex mx-auto max-w-[961px] border bg-light-gray border-deep-blue rounded-[10px] mt-5 justify-center relative duration-300 ease-linear" >
+                            <div className="overflow-hidden flex mx-auto max-w-[961px] border bg-light-gray border-deep-blue rounded-[10px] sm:mt-3 mt-2 md:mt-5 justify-center relative duration-300 ease-linear" >
                                 <div className="accordion w-full">
                                     <div
                                         role="button"
-                                        className="duration-300 ease-linear rounded relative z-[1] flex items-center justify-between gap-1.5 cursor-pointer py-[18px] px-5"
+                                        className="duration-300 ease-linear rounded relative z-[1] flex items-center justify-between gap-1.5 cursor-pointer sm:py-[18px] p-2 sm:px-5"
                                         onClick={() => handleToggle(index)}
                                         aria-expanded={openIndex === index}
                                     >
-                                        <h3 className="font-normal font-messiri text-base sm:text-xl max-w-[249px] sm:max-w-full text-black opacity-80">
+                                        <h3 className="font-normal font-messiri text-base sm:text-xl text-black opacity-80">
                                             {item.title}
                                         </h3>
-                                        <Icon className={openIndex === index ? 'transition_slow' : 'transition_slow rotate-180'} iconName={openIndex === index ? 'accordionIcon' : 'plusIcon'} />
+                                        <Icon className={`transition_slow w-5 ${openIndex === index ? '' : 'rotate-180'}`} iconName={openIndex === index ? 'accordionIcon' : 'plusIcon'} />
                                     </div>
                                     <div
                                         ref={(el: HTMLDivElement | null) => {
@@ -47,7 +47,7 @@ const Faq: React.FC = () => {
                                             maxHeight: openIndex === index ? getHeight(index) : '0px',
                                         }}
                                     >
-                                        <div className="flex items-start px-5 pb-5 -mt-0.5 w-full">
+                                        <div className="flex items-start sm:px-5 px-2 pb-2 sm:pb-5 -mt-0.5 w-full">
                                             <PrimaryParagraph className='max-w-[672px]' data={item.content} />
                                         </div>
                                     </div>
