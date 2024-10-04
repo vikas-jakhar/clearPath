@@ -9,6 +9,7 @@ import Faq from "@/components/home/Faq";
 import Learning from "@/components/home/Learning";
 import Footer from "@/components/home/Footer";
 import ScrollToTop from "@/components/common/ScrollToTop";
+import PreLoader from '@/components/common/PreLoader';
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -32,6 +33,7 @@ export default function Home() {
       <Learning />
       <Footer />
       <ScrollToTop />
+      <PreLoader />
     </>
   );
 }

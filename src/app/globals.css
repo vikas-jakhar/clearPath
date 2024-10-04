@@ -8,3 +8,11 @@
 .transition_slow {
     transition: all 300ms linear !important;
 }
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #1B3353;
+}
