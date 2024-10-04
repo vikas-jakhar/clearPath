@@ -44,7 +44,7 @@ const config: Config = {
         '5xl': "0px 0px 0px 1px white",
       },
       backgroundImage: {
-        'mobile-layer': "url('/assets/images/webp/pattern-layer.png')",
+        'mobile-layer': "url('/assets/images/webp/pattern-layer.webp')",
       },
     },
   },

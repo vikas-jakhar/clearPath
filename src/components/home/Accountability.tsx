@@ -13,7 +13,7 @@ const Accountability = () => {
                         <PrimaryParagraph className='sm:mt-4 text-center lg:text-left mt-2' data='Gain real-time access to all operational data through our dashboard, which allows for immediate insights and strategic decision making. We ensure full transparency in our processes and provide concrete evidence of our effectiveness and integrity.' />
                     </div>
                     <div className="max-w-[524px] shadow-3xl border border-deep-blue rounded-xl overflow-hidden flex">
-                        <Image src='/assets/images/webp/data-img.png' className='w-full hover:scale-105 transition_slow' alt='data-img' width={1048} height={702} priority />
+                        <Image src='/assets/images/webp/data-img.webp' className='w-full hover:scale-105 transition_slow' alt='data-img' width={1048} height={702} priority />
                     </div>
                 </div>
             </div>
