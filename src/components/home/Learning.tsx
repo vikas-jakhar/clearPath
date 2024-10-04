@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 const Learning = () => {
     return (
-        <div className='xl:pt-28 lg:pt-24 md:pt-16 pb-px relative z-10'>
+        <div className='md:pt-16 pb-px relative z-10'>
             <div className="container">
                 <div data-aos='zoom-in' className="mx-auto bg-off-white max-w-[961px] w-full rounded-[22px] px-2 shadow-4xl py-8 sm:py-11">
                     <div data-aos='zoom-in' className="mx-auto max-w-[621px] w-full flex flex-col items-center">
