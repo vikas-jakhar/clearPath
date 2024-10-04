@@ -14,9 +14,13 @@ const config: Config = {
       },
       colors: {
         'deep-blue': "#1B3353",
+        'dark-blue': "#DDECFF",
         'off-white': "#FEFEFE",
         'off-blue': "#2BA8E0",
         'light-sky': "#EEFAFF",
+        'off-gray': "#1B335333",
+        'light-gray': "#1B33530D",
+        'dark-gray': "#4B4B4C",
       },
       container: {
         center: true,
@@ -34,8 +38,12 @@ const config: Config = {
         'custom-xl': "48px",
       },
       boxShadow: {
-        '3xl': "0px 14px 30.5px 0px #1B33531F"
-      }
+        '3xl': "0px 14px 30.5px 0px #1B33531F",
+        '4xl': "0px 0px 49px 7px #00000017",
+      },
+      backgroundImage: {
+        'mobile-layer': "url('/assets/images/webp/pattern-layer.png')",
+      },
     },
   },
   plugins: [],
